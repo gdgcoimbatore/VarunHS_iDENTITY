@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.com.example.android.identity">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/person"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".aadharcard"
+            android:label="@string/title_activity_aadharcard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".pancard"
+            android:label="@string/title_activity_pancard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".passport"
+            android:label="@string/title_activity_passport"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dlicense"
+            android:label="@string/title_activity_dlicense"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".voterid"
+            android:label="@string/title_activity_voterid"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
